@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.env
+.venv/
+venv/
+env/
+ENV/
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+*.egg
+
+# FastAPI/Uvicorn
+*.db
+*.sqlite
+*.sqlite3
+
+# Node/Frontend
+node_modules/
+dist/
+.pnpm/
+pnpm-debug.log*
+*.tsbuildinfo
+
+# Environment variables
+.env.local
+.env.*.local
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS
+.DS_Store
+Thumbs.db
+*.log
+
+# Project specific
+backend/uploads/
+backend/db/
+frontend/.turbo/
+
+# Dependencies lock files (optional - uncomment if you want to ignore these)
+# pnpm-lock.yaml
+# poetry.lock
